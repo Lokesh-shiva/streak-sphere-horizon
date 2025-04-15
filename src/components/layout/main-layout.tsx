@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
@@ -16,6 +15,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { CompanionBot } from '@/components/companion/companion-bot';
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -184,6 +184,9 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
         <div className="flex-1 container py-6 px-4 md:px-8">
           {children}
         </div>
+
+        {/* Add CompanionBot */}
+        <CompanionBot />
       </main>
     </div>
   );
