@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# Welcome to Habit Horizon
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/de273be1-0ee1-4170-97ba-b3f1e134a008
+This is a habit tracking application to help users build consistent routines.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/de273be1-0ee1-4170-97ba-b3f1e134a008) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +18,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Lokesh-shiva/streak-sphere-horizon.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd streak-sphere-horizon
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,12 +56,8 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/de273be1-0ee1-4170-97ba-b3f1e134a008) and click on Share -> Publish.
+You can deploy this project to any platform that supports static websites, such as Vercel, Netlify, or GitHub Pages.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my project?
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Yes, you can! Most hosting platforms provide options to connect custom domains to your deployed applications.

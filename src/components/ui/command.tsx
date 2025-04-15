@@ -21,7 +21,8 @@ const Command = React.forwardRef<
 ))
 Command.displayName = CommandPrimitive.displayName
 
-interface CommandDialogProps extends DialogProps {}
+// Using type instead of interface to avoid the no-empty-object-type error
+type CommandDialogProps = DialogProps
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
   return (
